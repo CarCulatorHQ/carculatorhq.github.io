@@ -1,0 +1,105 @@
+/* CarCulator Website Styles - Modern Minimal Design */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #f0f4f8 100%);
+  color: #2d3748;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  color: #1a202c;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 40px 0 16px 0;
+  color: #1a202c;
+}
+
+p {
+  margin: 0 0 16px 0;
+  color: #4a5568;
+}
+
+/* Landing page specific */
+.landing h1 {
+  font-size: 48px;
+}
+
+.landing p {
+  font-size: 18px;
+  margin: 0 0 32px 0;
+  max-width: 600px;
+}
+
+em {
+  color: #718096;
+  font-size: 15px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  border-bottom-color: #0066cc;
+}
+
+/* Call-to-action buttons */
+.cta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 14px 24px;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  border-bottom: none;
+}
+
+.cta a:hover {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
+}
+
+footer {
+  margin-top: 80px;
+  padding-top: 32px;
+  border-top: 1px solid #e2e8f0;
+  font-size: 14px;
+  color: #718096;
+}
+
+footer a {
+  color: #0066cc;
+}
+
