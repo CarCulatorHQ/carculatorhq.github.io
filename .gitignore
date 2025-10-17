@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Node / static site tools (future-proof)
+node_modules/
+dist/
+build/
+.cache/
+
+# Editors
+.vscode/
+
+# Env files (if ever used)
+.env
+.env.*
+
